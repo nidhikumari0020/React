@@ -1,10 +1,16 @@
 import React from 'react'
 
-function App() {
+const App = () => {
+
+  function btnClicked(){
+    console.log("hello")
+  }
+  
   return (
-    <div>
-      
-    </div>
+<div className='parent'>
+  <button className='btn'>click  Me</button>
+</div>
+   
   )
 }
 
